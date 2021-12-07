@@ -91,8 +91,15 @@ header nav ul li a:hover {
 
 /* -------  Search Form ------- */
 form {
+  display: flex;
+  flex-direction: column;
   border: 2px solid #ff385c;
   padding: 10px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
 }
 
 form label {
@@ -127,3 +134,39 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (min-width: 480px){
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.alternate-background div{
+    display: flex;
+    flex-direction: row;
+  }
+
+ section.ideas div{
+   display: flex;
+   flex-direction: row;
+ }
+  
+ section.alternate-background div div{
+  display: flex;
+  flex-direction: column;
+}
+
+}
