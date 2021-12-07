@@ -147,6 +147,7 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   form div {
@@ -182,6 +183,10 @@ section.alternate-background div img{
   margin: 10px;
 }
 
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 }
