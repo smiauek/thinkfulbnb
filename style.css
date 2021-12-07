@@ -160,10 +160,7 @@ footer p {
     flex-direction: row;
   }
 
- section.ideas div{
-   display: flex;
-   flex-direction: row;
- }
+ 
   
  section.alternate-background div div{
   display: flex;
@@ -188,5 +185,9 @@ nav ul{
   flex-wrap: wrap;
 }
 
+.group {
+  display: flex;
+  flex-direction: row;
+}
 
 }
