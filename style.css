@@ -169,6 +169,19 @@ footer p {
   flex-direction: column;
 }
 
+section.alternate-background div p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+section.alternate-background div img{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
 
 
 }
