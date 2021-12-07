@@ -26,12 +26,15 @@ section {
 }
 
 section.alternate-background {
+  display: flex;
+  flex-direction: column;
   background-color: #00a699;
   color: #fff;
 }
 
 main img {
-  width: 100px;
+  width: 100%;
+  margin: 10px 0 10px 0;
 }
 
 /* ---  Groups & Items --- */
@@ -62,6 +65,13 @@ header {
   font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
+}
+
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
 header nav ul li {
